@@ -5,11 +5,11 @@ import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
-    { hobby: "coding" },
-    { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tech Blog writing" },
-    { hobby: "creating Cool Projects" },
+    { hobby: "Coding" },
+    { hobby: "Playing games" },
+    { hobby: "Watching film" },
+    { hobby: "Photography" },
+    { hobby: "Listening music" },
   ];
 
   return (
@@ -25,13 +25,7 @@ const page = () => {
         </Heading>
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary-text max-sm:text-lg">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I love crafting cool web projects and also open-source
-            contribuitions. My biggest achievement lies in my mastery of
-            JavaScript and CSS, ensuring pixel-perfect designs that captivate
-            users. With a keen eye for detail and a commitment to delivery
-            speed, I excel at creating seamless and responsive interfaces that
-            leave a lasting impression.
+            Software Engineer with 2+ years of experience developing web applications. A strong collaborator with excellent problem-solving skills, dedicated to delivering high performance solutions. Committed to staying up to date with the latest web technologies to drive innovation and efficiency.
           </p>
         </FramerWrapper>
       </div>

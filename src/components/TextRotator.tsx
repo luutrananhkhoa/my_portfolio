@@ -17,9 +17,9 @@ function TextRotator() {
           <li className="text-primary">Freelancer</li>
           <li className="text-primary">Gamer</li>
           <li className="text-primary">Creator</li>
-          <li className="text-primary">Contributer</li>
-          <li className="text-primary">Photographer</li>
           <li className="text-primary">Rapper</li>
+          <li className="text-primary">Photographer</li>
+          <li className="text-primary">Contributor</li>
         </ul>
       </span>
     </div>
