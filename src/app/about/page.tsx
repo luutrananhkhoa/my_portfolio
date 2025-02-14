@@ -24,7 +24,7 @@ const page = () => {
           Software Engineer And Web <br /> Developer, Based In Vietnam
         </Heading>
         <FramerWrapper y={0} x={100} >
-          <p className=" font-poppins text-xl w-full text-primary-text max-sm:text-lg">
+          <p className=" font-poppins text-lg w-full text-primary-text max-sm:text-lg">
             Software Engineer with 2+ years of experience developing web applications. A strong collaborator with excellent problem-solving skills, dedicated to delivering high performance solutions. Committed to staying up to date with the latest web technologies to drive innovation and efficiency.
           </p>
         </FramerWrapper>
@@ -33,11 +33,11 @@ const page = () => {
         <Aboutfooter />
       </FramerWrapper>
       <FramerWrapper className="block" y={100} delay={0.31}>
-        <h1 className="gap-2 text-3xl font-poppins text-primary-text font-semibold flex icon_underline relative max-sm:text-2xl">
+        <h1 className="gap-2 text-xl font-poppins text-primary-text font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
         </h1>
-        <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
+        <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:gap-3 flex-wrap">
           {items.map((val, indx) => {
             return (
               <div

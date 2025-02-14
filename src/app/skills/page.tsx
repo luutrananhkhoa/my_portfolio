@@ -88,7 +88,7 @@ const skillPage = () => {
     ]
   return (
     // SKILLS PAGE
-    <div className="min-h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    <div className="min-h-full w-full relative flex flex-col items-start gap-5 overflow-hidden py-6">
       <Badge className="text-primary-text gap-2">
         <Lightbulb className="h-5 w-5" />
         My Skills
@@ -96,7 +96,7 @@ const skillPage = () => {
       <div className="flex flex-col gap-3">
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className="font-poppins text-xl w-full text-primary-text max-sm:text-lg">
+          <p className="font-poppins text-lg w-full text-primary-text max-sm:text-lg">
             Software Engineer with a comprehensive foundation in modern web development technologies, 
             specializing in building responsive web applications using React and Next.js. Proficient 
             in both frontend and backend development with expertise in JavaScript, TypeScript, and 
@@ -106,7 +106,7 @@ const skillPage = () => {
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block py-2">
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
+          <h1 className="gap-2 text-xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
             Programming Languages
           </h1>
           <div className="w-full gap-4 h-fit flex-row flex justify-start items-center flex-wrap">
@@ -114,7 +114,7 @@ const skillPage = () => {
           </div>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block py-2">
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
+          <h1 className="gap-2 text-xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
             Framework/Platforms
           </h1>
           <div className="w-full gap-4 h-fit flex-row flex justify-start items-center flex-wrap">
@@ -122,7 +122,7 @@ const skillPage = () => {
           </div>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block py-2">
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
+          <h1 className="gap-2 text-xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
             Database Management Systems
           </h1>
           <div className="w-full gap-4 h-fit flex-row flex justify-start items-center flex-wrap">
@@ -130,7 +130,7 @@ const skillPage = () => {
           </div>
         </FramerWrapper>
         <FramerWrapper  className="block py-2" y={100} delay={0.32}>
-          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
+          <h1 className="gap-2 text-xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
             Development Tools & Technologies
           </h1>
           <div className="w-full gap-4 h-fit flex-row flex justify-start items-center flex-wrap">
