@@ -21,7 +21,7 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In Vietnam
+          Software Engineer,<br /> Based In Vietnam
         </Heading>
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-lg w-full text-primary-text max-sm:text-lg">
